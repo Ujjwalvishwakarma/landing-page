@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+
+nav{
+    width: 100%;
+    height: 10%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+#lft{
+    padding-left: 20px;
+}
+
+#mid{
+    display: flex;
+    gap: 20px;
+}
+
+#rgt{
+    padding-right: 20px;
+}
+#rgt button{
+    padding: 10px;
+}
+
+#main{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: chartreuse; */
+}
+
+
+#lftmain{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:20px 10px ;
+    background-color: aqua;
+
+}
+#lftmain h1{
+    font-size: 70px;
+}
+
+#lftmain p{
+    font-size: 30px;
+}
+
+#lftmain h6{
+    font-size: 20px;
+}
+
+#lftmain h1 span{
+    color: #fff;
+}
+
+#midmain{
+    width: 30%;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+
+#rgtmain{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+#rgtmain img{
+    width: 90%;
+    align-self: flex-end;
+}
+
+#lftmain2{
+    display: flex;
+    justify-content: space-between;
+}
